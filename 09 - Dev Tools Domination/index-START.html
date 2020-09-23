@@ -18,29 +18,36 @@
     }
 
     // Regular
+    console.log("hello");
 
     // Interpolated
-
+    console.log("hello I am %s",'sanket');
     // Styled
-
+    console.log("%c am great",'font-size:50px;');
     // warning!
-
-    // Error :|
-
-    // Info
+    console.warn("hello");
+    console.error("hello");
+    console.info("hello");
+    
 
     // Testing
-
+    console.assert(1===1,"wrong");
     // clearing
-
+    // console.clear();
     // Viewing DOM Elements
-
-    // Grouping together
+    console.dir(document.querySelector('p'));
 
     // counting
+    console.count('wes');
+    console.count('wes');
+    console.count('wes');
+    console.count('wes');
+    console.count('wes');
 
     // timing
-
+   	console.time('fetching data');
+   	//your code for eg fetching from api
+   	console.timeEnd('fetching data');
   </script>
 </body>
 </html>
